@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T14:51:55.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UjLWNi8qtFuGtHIzAz6K" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T15:09:45.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="t2U8dDDsaslQwShkv4O5" version="22.1.17" type="github">
   <diagram name="Page-1" id="g004UJIQQaxhIGtHMV1d">
     <mxGraphModel dx="695" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -65,7 +65,10 @@
         <mxCell id="s0-FrGVsxFy7fqw6O0eB-55" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="141" y="516" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s0-FrGVsxFy7fqw6O0eB-75" value="function playround(usernames)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="s0-FrGVsxFy7fqw6O0eB-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s0-FrGVsxFy7fqw6O0eB-75" target="s0-FrGVsxFy7fqw6O0eB-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s0-FrGVsxFy7fqw6O0eB-75" value="function playround(username)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="10" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s0-FrGVsxFy7fqw6O0eB-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="s0-FrGVsxFy7fqw6O0eB-79">
@@ -96,8 +99,14 @@
             <mxPoint x="500" y="521" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s0-FrGVsxFy7fqw6O0eB-93" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="70" width="120" height="60" as="geometry" />
+        <mxCell id="s0-FrGVsxFy7fqw6O0eB-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s0-FrGVsxFy7fqw6O0eB-93" target="s0-FrGVsxFy7fqw6O0eB-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s0-FrGVsxFy7fqw6O0eB-93" value="die1 = random(1, 6)&lt;br&gt;die2 = random(1, 6)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="66" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s0-FrGVsxFy7fqw6O0eB-99" value="Output username + &quot; rolled a &quot; + str(die1) + &quot; and a &quot; + str(die2)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
