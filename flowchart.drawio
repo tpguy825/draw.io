@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-11T12:25:00.395Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6Tjuw6_eqjwBZpLvoxBp" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-11T12:33:12.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Gm309SHu1-B3en69L0pV" version="22.1.18" type="github">
   <diagram name="Page-1" id="g004UJIQQaxhIGtHMV1d">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,10 +38,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s0-FrGVsxFy7fqw6O0eB-13" value="next i&lt;br&gt;return usernames" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="32.5" y="540" width="110" height="40" as="geometry" />
+          <mxGeometry x="32.5" y="630" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s0-FrGVsxFy7fqw6O0eB-18" value="endfunction" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="27.5" y="590" width="120" height="40" as="geometry" />
+          <mxGeometry x="27.5" y="680" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s0-FrGVsxFy7fqw6O0eB-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="s0-FrGVsxFy7fqw6O0eB-75" target="s0-FrGVsxFy7fqw6O0eB-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -337,7 +337,7 @@
         <mxCell id="78vkhbJ-sMVRB2ae3W5f-56" value="passsword == loginpass" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="72.5" y="401" width="117.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="78vkhbJ-sMVRB2ae3W5f-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78vkhbJ-sMVRB2ae3W5f-57" target="s0-FrGVsxFy7fqw6O0eB-13" edge="1">
+        <mxCell id="O9P5ordozrzs0DllME1a-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="78vkhbJ-sMVRB2ae3W5f-57" target="O9P5ordozrzs0DllME1a-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="78vkhbJ-sMVRB2ae3W5f-57" value="usernames[i - 1] = loginuser" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -381,7 +381,7 @@
         <mxCell id="O9P5ordozrzs0DllME1a-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1520" y="10" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="O9P5ordozrzs0DllME1a-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O9P5ordozrzs0DllME1a-3" value="usernames = login()&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1520" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O9P5ordozrzs0DllME1a-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9P5ordozrzs0DllME1a-7" target="78vkhbJ-sMVRB2ae3W5f-47">
@@ -423,6 +423,32 @@
         </mxCell>
         <mxCell id="O9P5ordozrzs0DllME1a-22" value="Output &quot;Tied, rolling extra dice to decide the winner&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;spacingLeft=7;" vertex="1" parent="1">
           <mxGeometry x="1095.87" y="760" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9P5ordozrzs0DllME1a-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="O9P5ordozrzs0DllME1a-25" target="s0-FrGVsxFy7fqw6O0eB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9P5ordozrzs0DllME1a-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9P5ordozrzs0DllME1a-25" target="O9P5ordozrzs0DllME1a-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9P5ordozrzs0DllME1a-25" value="i == 1 AND usernames[i] != usernames[0]" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="529" width="170" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="O9P5ordozrzs0DllME1a-29" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="528" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9P5ordozrzs0DllME1a-30" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="595" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9P5ordozrzs0DllME1a-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9P5ordozrzs0DllME1a-31" target="78vkhbJ-sMVRB2ae3W5f-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="476" />
+              <mxPoint x="210" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9P5ordozrzs0DllME1a-31" value="Output &quot;You are already logged in&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;spacingRight=5;" vertex="1" parent="1">
+          <mxGeometry x="190" y="476" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
