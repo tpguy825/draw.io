@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-11T12:12:57.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4vh5v4hfcHQ7E-oXmmIn" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-11T12:25:00.395Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6Tjuw6_eqjwBZpLvoxBp" version="22.1.18" type="github">
   <diagram name="Page-1" id="g004UJIQQaxhIGtHMV1d">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
@@ -408,7 +408,7 @@
         <mxCell id="O9P5ordozrzs0DllME1a-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9P5ordozrzs0DllME1a-15" target="78vkhbJ-sMVRB2ae3W5f-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1240" y="680" />
+              <mxPoint x="1330" y="680" />
               <mxPoint x="1040" y="680" />
               <mxPoint x="1040" y="595" />
               <mxPoint x="900" y="595" />
@@ -416,7 +416,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O9P5ordozrzs0DllME1a-15" value="player1score = player1score + random(1, 6)&lt;br&gt;player2score = player2score + random(1, 6)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="724.75" width="240" height="40" as="geometry" />
+          <mxGeometry x="1210" y="700" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9P5ordozrzs0DllME1a-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9P5ordozrzs0DllME1a-22" target="O9P5ordozrzs0DllME1a-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O9P5ordozrzs0DllME1a-22" value="Output &quot;Tied, rolling extra dice to decide the winner&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;spacingLeft=7;" vertex="1" parent="1">
           <mxGeometry x="1095.87" y="760" width="200" height="60" as="geometry" />
